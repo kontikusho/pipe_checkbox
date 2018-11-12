@@ -7,9 +7,9 @@ from prompt_toolkit.formatted_text import to_formatted_text
 
 class CheckboxList(object):
     """
-    List of radio buttons. Only one can be checked at the same time.
-
-    :param values: List of (value, label) tuples.
+    List of check boxes. Multi checked at the same time.
+    -> Japanese: チェックボックスのリストです。複数選択できます。
+    :param values: List of [value, checked].
     """
 
     def __init__(self, values):
